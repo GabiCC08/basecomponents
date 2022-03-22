@@ -1,0 +1,132 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "jXLoM2GHLBG2mG6Xb1BAum",
+      "projectApiToken": "D6401yaaTkWHAH71RDHBQXKuPF9y0Dlrmcu7nfQzkpvRogGqxFmWh6OHfGOp4zudaCwWxQT0DbHDxWr8jPS6ZA",
+      "projectName": "bcomponents",
+      "version": "latest",
+      "cssFilePath": "plasmic/bcomponents/plasmic_bcomponents.module.css",
+      "components": [
+        {
+          "id": "MFE_1t2fa8ue",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "jXLoM2GHLBG2mG6Xb1BAum",
+          "renderModuleFilePath": "plasmic/bcomponents/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "plasmic/bcomponents/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "spFBUTx64PO5C",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/bcomponents/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "YxLo61wrqvzmE",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/bcomponents/icons/PlasmicIcon__Icon2.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "h8-cob6A58oLx",
+          "name": "image.png",
+          "filePath": "plasmic/bcomponents/images/imagepng.jpeg"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "pbYC8ia9w0",
+          "name": "BitAutocomplete",
+          "componentImportPath": "./src/components/BitAutocomplete"
+        },
+        {
+          "id": "uT-BJs_pL6",
+          "name": "BitBurger",
+          "componentImportPath": "./src/components/BitBurger"
+        },
+        {
+          "id": "nebagr72tu",
+          "name": "BitButton",
+          "componentImportPath": "./src/components/BitButton"
+        },
+        {
+          "id": "RwMVrkX8Li",
+          "name": "BitCheckbox",
+          "componentImportPath": "./src/components/BitCheckbox"
+        },
+        {
+          "id": "XS4TwcrQVx",
+          "name": "BitComboBox",
+          "componentImportPath": "./src/components/BitComboBox"
+        },
+        {
+          "id": "B4w8dLOt8nh",
+          "name": "BitDatepicker",
+          "componentImportPath": "./src/components/BitDatepicker"
+        },
+        {
+          "id": "82241IxwSR1",
+          "name": "BitInputmask",
+          "componentImportPath": "./src/components/BitInputmask"
+        },
+        {
+          "id": "IgKO17HkuNQ",
+          "name": "BitModal",
+          "componentImportPath": "./src/components/BitModal"
+        },
+        {
+          "id": "c2q_CxezRaI",
+          "name": "BitRadiobutton",
+          "componentImportPath": "./src/components/BitRadiobutton"
+        },
+        {
+          "id": "0mgvhXxrLu-",
+          "name": "BitTextbox",
+          "componentImportPath": "./src/components/BitTextbox"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "O3DJzPQqTyEWG",
+        "name": "Screen",
+        "projectId": "jXLoM2GHLBG2mG6Xb1BAum",
+        "contextFilePath": "plasmic/bcomponents/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.170",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.170/dist/plasmic.schema.json"
+}
